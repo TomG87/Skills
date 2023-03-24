@@ -1,11 +1,17 @@
 # 1. Write a program that uses variables to store a first and last name, then prints the full name in one line using string concatenation (the + operator).
 
+# first_name = "Tom"
+# last_name = "Gagliano"
+
+# p "My name is " + first_name + " " + last_name
+
+# 2. Write a program that uses variables to store a first and last name, then prints the full name in one line using string interpolation (the #{} operator).
+
 first_name = "Tom"
 last_name = "Gagliano"
 
-p "My name is " + first_name + " " + last_name
+p "My name is #{first_name} #{last_name}"
 
-# 2. Write a program that uses variables to store a first and last name, then prints the full name in one line using string interpolation (the #{} operator).
 
 # 3. Write a program that asks the user to input a word. If the word is "marco", print "polo".
 
