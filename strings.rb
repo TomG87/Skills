@@ -26,22 +26,22 @@
 
 # 4. Write a program that uses variables to store three different colors, then prints out a sentence using the colors with string concatenation (the + operator).
 
-blue = "blue"
-green = "green"
-orange = "orange"
+# blue = "blue"
+# green = "green"
+# orange = "orange"
 
-p "My favorite color is " + blue + " followed by " + green + " and lastly " + orange + "."
+# p "My favorite color is " + blue + " followed by " + green + " and lastly " + orange + "."
 
 
 
 # 5. Write a program that uses variables to store three different colors, then prints out a sentence using the colors with string interpolation (the #{} operator).
 
 
-# blue = "blue"
-# green = "green"
-# orange = "orange"
+blue = "blue"
+green = "green"
+orange = "orange"
 
-# p "My favorite color is " + blue + " followed by " + green + " and lastly " + orange + "."
+p "My favorite color is #{blue} followed by #{green} and lastly #{orange}."
 
 # 6. Write a program that asks the user to enter a name. If the name is not "Santa", print "You're not Santa."
 
