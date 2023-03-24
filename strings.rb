@@ -45,18 +45,23 @@
 
 # 6. Write a program that asks the user to enter a name. If the name is not "Santa", print "You're not Santa."
 
-p "Please enter a name"
+# p "Please enter a name"
 
-answer = gets.chomp
+# answer = gets.chomp
 
-if answer == "Santa" || answer == "santa"
-  p "Hey Santa!"
-else
-  p "You're not Santa"
-end
+# if answer == "Santa" || answer == "santa"
+#   p "Hey Santa!"
+# else
+#   p "You're not Santa"
+# end
 
 
 # 7. Write a program that uses variables to store a book's title and author, then prints out a sentence using that information with string concatenation (the + operator).
+
+book = "Goosebumps"
+author = "R.L. Stein"
+
+p "My favorite book is " + book + " by " + author + "."
 
 # 8. Write a program that uses variables to store a book's title and author, then prints out a sentence using that information with string interpolation (the #{} operator).
 
