@@ -73,17 +73,35 @@
 
 # 9. Write a program that asks the user to enter a password. If the password is "Joshua", the program responds "Shall we play a game?". For any other password, the program responds "Access denied"
 
-p "Please enter a password"
+# p "Please enter a password"
 
-password = gets.chomp
+# password = gets.chomp
 
-if password == "Joshua" || password == "joshua"
-  p "Shall we play a game?"
-else
-  p "Access denied"
-end
+# if password == "Joshua" || password == "joshua"
+#   p "Shall we play a game?"
+# else
+#   p "Access denied"
+# end
 
 # 10. Write a program that uses variables to store the names of three cities, then prints out a sentence using that information with string concatenation (the + operator).
+
+
+p "We need you to enter 3 cities"
+
+p "Please enter your first city"
+
+city_1 = gets.chomp
+
+p "Please enter your 2nd city"
+
+city_2 = gets.chomp
+
+p "Please enter your 3rd city"
+
+city_3 = gets.chomp
+
+p "Thank you.  The 3 cities you chose were " + city_1 + ", " + city_2 + ", and " + city_3 + "."
+
 
 
 # SOLUTIONS: https://gist.github.com/peterxjang/79ba5acc912a86cce2a18c2f14b1c712
