@@ -69,29 +69,29 @@
 
 # 8. Write a program that asks the user to enter a number, then prints "That's a negative number" if the number is less than 0.
 
-p "Please enter a number"
+# p "Please enter a number"
 
-number = gets.chomp.to_i
+# number = gets.chomp.to_i
 
-if number < 0
-  p "That's a negative number"
-else
-  p "Thank you"
-end
+# if number < 0
+#   p "That's a negative number"
+# else
+#   p "Thank you"
+# end
 
 
 
 # 9. Write a program that asks the user to enter two numbers, then prints the two numbers multiplied together.
 
-# p "Please enter 2 numbers and I will multiply them. What is your first number"
+p "Please enter 2 numbers and I will multiply them. What is your first number"
 
-# number = gets.chomp.to_i
+number = gets.chomp.to_i
 
-# p "Thank you. What is your 2nd number?"
+p "Thank you. What is your 2nd number?"
 
-# number_2 = gets.chomp
+number_2 = gets.chomp.to_i
 
-# p "The numbers you provide "
+p "The numbers you provided multiplied together is #{number * number_2}"
 
 # 10. Write a program that asks the user to enter a word, then prints "That's a long word" if the word has more than 5 letters.
 
