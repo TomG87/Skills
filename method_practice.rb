@@ -39,15 +39,25 @@
 
 # 5. Write a program that asks the user to enter a number, then prints the number times 10.
 
-p "Please enter a number and I will provide it to you 10 times"
+# p "Please enter a number and I will provide it to you 10 times"
 
-number = gets.chomp
+# number = gets.chomp
 
-10.times do
-  p number
-end
+# 10.times do
+#   p number
+# end
 
 # 6. Write a program that asks the user to enter two words, then prints both words on the same line in all capital letters.
+
+p "Please enter 2 words.  What is your first word?"
+
+word = gets.chomp.upcase
+
+p "Thank you.  What is your 2nd word?"
+
+word_2 = gets.chomp.upcase
+
+p "The words you provided were #{word} and #{word_2}"
 
 # 7. Write a program that asks the user to enter a word, then prints the number of letters in the word.
 
