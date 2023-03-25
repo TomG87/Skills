@@ -95,15 +95,15 @@
 
 # 10. Write a program that asks the user to enter a word, then prints "That's a long word" if the word has more than 5 letters.
 
-p "Please enter a word"
+# p "Please enter a word"
 
-word = gets.chomp
+# word = gets.chomp
 
-if word.length > 5
-  p "That's a long word"
-else
-  p "That's a short word"
-end
+# if word.length > 5
+#   p "That's a long word"
+# else
+#   p "That's a short word"
+# end
 
 
 # SOLUTIONS: https://gist.github.com/peterxjang/1539a3ad79728ba4fb68dd8d07279c29
