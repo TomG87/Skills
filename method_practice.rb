@@ -20,16 +20,22 @@
 
 # 3. Write a program that asks the user to enter two numbers, then prints the numbers added together.
 
-p "I need you to provide 2 numbers and I will add them together.  Please provide the first number"
+# p "I need you to provide 2 numbers and I will add them together.  Please provide the first number"
 
-number = gets.chomp.to_i
+# number = gets.chomp.to_i
 
-p "Thank you. Please add your 2nd number"
-number_2 = gets.chomp.to_i
+# p "Thank you. Please add your 2nd number"
+# number_2 = gets.chomp.to_i
 
-p "The numbers you provide added together are #{number + number_2}"
+# p "The numbers you provide added together are #{number + number_2}"
 
 # 4. Write a program that asks the user to enter a word, then prints that word in reverse order.
+
+p "Please enter a word and I will provide you the same word in reverse order"
+
+word = gets.chomp.reverse
+
+p "#{word} is the word you provided in reverse order"
 
 # 5. Write a program that asks the user to enter a number, then prints the number times 10.
 
