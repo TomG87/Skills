@@ -9,15 +9,24 @@
 
 # 2. Write a while loop that prints the word "hello" 5 times.
 
-x = 1 
+# x = 1 
 
-while x < 6
-  p "hello"
-  x = x + 1
-end
+# while x < 6
+#   p "hello"
+#   x = x + 1
+# end
 
 
 # 3. Write a while loop that asks the user to enter a word and will run forever until the user enters the word "stop".
+
+p "Please enter a word.  When you want the program to stop running please enter the word 'stop'"
+
+while  true
+  word = gets.chomp 
+  if word == "stop"
+    break
+  end
+end
 
 # 4. Write a while loop that prints the numbers 0 through 100, increasing by 5 each time.
 
