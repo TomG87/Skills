@@ -86,21 +86,21 @@
 # 10. Write a program that uses variables to store the names of three cities, then prints out a sentence using that information with string concatenation (the + operator).
 
 
-p "We need you to enter 3 cities"
+# p "We need you to enter 3 cities"
 
-p "Please enter your first city"
+# p "Please enter your first city"
 
-city_1 = gets.chomp
+# city_1 = gets.chomp
 
-p "Please enter your 2nd city"
+# p "Please enter your 2nd city"
 
-city_2 = gets.chomp
+# city_2 = gets.chomp
 
-p "Please enter your 3rd city"
+# p "Please enter your 3rd city"
 
-city_3 = gets.chomp
+# city_3 = gets.chomp
 
-p "Thank you.  The 3 cities you chose were " + city_1 + ", " + city_2 + ", and " + city_3 + "."
+# p "Thank you.  The 3 cities you chose were " + city_1 + ", " + city_2 + ", and " + city_3 + "."
 
 
 
