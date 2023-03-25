@@ -12,11 +12,11 @@
 
 # number = gets.chomp.to_i
 
-# if number > 100
-#   p "That's a big number"
-# else
-#   p "Thank you"
-# end
+if number > 100
+  p "That's a big number"
+else
+  p "Thank you"
+end
 
 # 3. Write a program that asks the user to enter two numbers, then prints the numbers added together.
 
