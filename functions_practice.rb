@@ -33,13 +33,19 @@
 
 # 5. Write a function that takes in a string and returns the first letter of the string. Then run the function and print the result.
 
-def string(word)
-  return word[0]
-end
+# def string(word)
+#   return word[0]
+# end
 
-p string("tree")
+# p string("tree")
 
 # 6. Write a function that takes in three strings and returns a string that combines all three strings with spaces in between. Then run the function and print the result.
+
+def string(word_1, word_2, word_3)
+  return "#{word_1} #{word_2} #{word_3}"
+end
+
+p string("Baseball", "Hall of Fame", "Players")
 
 # 7. Write a function that takes in a number and returns the number as a string. Then run the function and print the result.
 
