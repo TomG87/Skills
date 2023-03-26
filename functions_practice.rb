@@ -75,10 +75,10 @@
 # 10. Write a function that takes in a number and returns the number times 10 plus 30. Then run the function and print the result.
 
 
-def equation(number)
-  return (number * 10) + 30
-end
+# def equation(number)
+#   return (number * 10) + 30
+# end
 
-p equation(100)
+# p equation(100)
 
 # SOLUTIONS: https://gist.github.com/peterxjang/6a26d3c698c651dd6e9ccb168d32648c
