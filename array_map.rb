@@ -111,14 +111,14 @@
 # 10. Start with an array of numbers and create a new array with each number converted into a string.
 #     For example, [1, 2, 3] becomes ["1", "2", "3"].
 
-array = [1,2,3]
-new_array = []
+# array = [1,2,3]
+# new_array = []
 
-array.each do |arr|
-  new_array << arr.to_s
-end
+# array.each do |arr|
+#   new_array << arr.to_s
+# end
 
-p new_array
+# p new_array
 
 
 # SOLUTIONS (using while loop): https://gist.github.com/peterxjang/b9ac4390aad2301a2238efc95c904f3d
