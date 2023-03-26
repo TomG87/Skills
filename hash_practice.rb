@@ -26,13 +26,25 @@
 
 # 3. Make a hash to store prices for 3 different menu items. Then add a new menu item and price and print the hash to see the result.
 
-produce = {"apple" => 1.00, "banana" => 2.00, "pear" => 3.00}
+# produce = {"apple" => 1.00, "banana" => 2.00, "pear" => 3.00}
 
-produce["strawberry"] = 4.00
+# produce["strawberry"] = 4.00
 
-p produce
+# p produce
 
 # 4. Make a hash to store a book's title, author, number of pages, and language. Then print each attribute on separate lines.
+
+information = {
+  title: "Goosebumps", 
+  author: "RL Stein", 
+  pages: 300, 
+  language: "English"
+}
+
+p information[:title]
+p information[:author]
+p information[:pages]
+p information[:language]
 
 # 5. Make an array of hashes to store the title and author for 3 different books. Then print out the third book's author.
 
