@@ -87,6 +87,13 @@
 
 # 8. Create an array to store 5 numbers. Then change the first number to 10 times its original value and print the array on one line.
 
+array = [1, 2, 3, 4, 5]
+
+array[0] = array[0] * 10
+
+p array
+
+
 # 9. Create an array to store 2 numbers. Then print out each number on separate lines with a while loop.
 
 # 10. Create an array to store names of 3 different countries. Then add one more country and print the array one line.
