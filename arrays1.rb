@@ -1,20 +1,26 @@
 # 1. Create an array to store 3 words. Then add two more words to the array and print the array on one line.
 
-array = ["apple", "banana", "pear"]
+# array = ["apple", "banana", "pear"]
 
-# blueberry = "blueberry"
-# grape = "grape"
+# # blueberry = "blueberry"
+# # grape = "grape"
 
-# array.push(blueberry, grape)
+# # array.push(blueberry, grape)
+
+# # p array
+
+# array << "blueberry"
+# array << "grape"
 
 # p array
 
-array << "blueberry"
-array << "grape"
+# 2. Create an array to store 4 letters. Then change the second letter to a number and print the array on one line.
+
+array = ["a", "b", "c", "d"]
+
+p array [1] = 1
 
 p array
-
-# 2. Create an array to store 4 letters. Then change the second letter to a number and print the array on one line.
 
 # 3. Create an array to store 5 numbers. Then print out each number on separate lines with a while loop.
 
