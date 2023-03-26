@@ -57,13 +57,20 @@
 
 # 8. Write a function that takes in a string and returns the string repeated 5 times. Then run the function and print the result.
 
-def multiply(string)
-  return string * 5
-end
+# def multiply(string)
+#   return string * 5
+# end
 
-p multiply("Eggs")
+# p multiply("Eggs")
 
 # 9. Write a function that takes in 3 numbers and returns the average (the sum divided by 3.0). Then run the function and print the result.
+
+def average(number_1, number_2, number_3)
+  return (number_1 + number_2 + number_3)/3.to_f
+end
+
+p average(15,30,45)
+
 
 # 10. Write a function that takes in a number and returns the number times 10 plus 30. Then run the function and print the result.
 
