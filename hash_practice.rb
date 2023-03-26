@@ -2,15 +2,27 @@
 
 # information = {name: "Tom", last_name: "Gagliano", email: "Tgaglianoll@gmail.com"}
 
-information = {:name => "Tom", :last_name => "Gagliano", :email =>"Tgaglianoll@gmail.com"}
+# information = {:name => "Tom", :last_name => "Gagliano", :email =>"Tgaglianoll@gmail.com"}
 
-p information[:name]
-p information[:last_name]
-p information[:email]
+# p information[:name]
+# p information[:last_name]
+# p information[:email]
 
 
 
 # 2. Make an array of hashes to store the first name and last name for 3 different people. Then print out the first person's info.
+
+# information = [
+  
+#   { first_name: "Tom", last_name: "Gagliano" },
+#   { first_name: "Mike", last_name: "Ciotola" }, 
+#   { first_name: "Bernie", last_name: "Alvarez" }
+# ]
+
+# p information[0][:first_name]
+# p information[0][:last_name]
+
+
 
 # 3. Make a hash to store prices for 3 different menu items. Then add a new menu item and price and print the hash to see the result.
 
