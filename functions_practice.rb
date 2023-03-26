@@ -41,14 +41,19 @@
 
 # 6. Write a function that takes in three strings and returns a string that combines all three strings with spaces in between. Then run the function and print the result.
 
-def string(word_1, word_2, word_3)
-  return "#{word_1} #{word_2} #{word_3}"
-end
+# def string(word_1, word_2, word_3)
+#   return "#{word_1} #{word_2} #{word_3}"
+# end
 
-p string("Baseball", "Hall of Fame", "Players")
+# p string("Baseball", "Hall of Fame", "Players")
 
 # 7. Write a function that takes in a number and returns the number as a string. Then run the function and print the result.
 
+def string(number)
+  return number.to_s
+end
+
+p string(8)
 # 8. Write a function that takes in a string and returns the string repeated 5 times. Then run the function and print the result.
 
 # 9. Write a function that takes in 3 numbers and returns the average (the sum divided by 3.0). Then run the function and print the result.
