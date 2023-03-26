@@ -90,5 +90,13 @@
 
 # 10. Make a hash to store a shirt's brand, color, and size. Then print each attribute on separate lines.
 
+shirt = {brand: "John Varvatos", color: "Navy", size: "Large"}
+
+p shirt[:brand]
+p shirt[:color]
+p shirt[:size]
+
+
+
 
 # SOLUTIONS: https://gist.github.com/peterxjang/d257aec07882d78009bd796ed53f81bb
