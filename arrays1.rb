@@ -113,11 +113,11 @@
 
 # 10. Create an array to store names of 3 different countries. Then add one more country and print the array one line.
 
-array = ["America", "Italy", "Spain"]
+# array = ["America", "Italy", "Spain"]
 
-array << "France"
+# array << "France"
 
-p array
+# p array
 
 
 # SOLUTIONS: https://gist.github.com/peterxjang/7095a2b19e1da2cc18d4a0dcd66cb8f1
