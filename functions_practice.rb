@@ -8,6 +8,12 @@
 
 # 2. Write a function that takes in a string and returns the string with all capital letters. Then run the function and print the result.
 
+def string(word)
+  return word.upcase
+end
+
+p string("Hall of Fame")
+
 # 3. Write a function that takes in two numbers and returns the first number subtracted by the second. Then run the function and print the result.
 
 # 4. Write a function that takes in a number and returns the number times itself. Then run the function and print the result.
