@@ -1,19 +1,32 @@
-#  1. Start with an array of numbers and create a new array with only the numbers less than 20.
-#     For example, [2, 32, 80, 18, 12, 3] becomes [2, 18, 12, 3].
+# #  1. Start with an array of numbers and create a new array with only the numbers less than 20.
+# #     For example, [2, 32, 80, 18, 12, 3] becomes [2, 18, 12, 3].
 
-array = [2, 32, 80, 18, 12, 3]
+# array = [2, 32, 80, 18, 12, 3]
+# new_array = []
+
+# array.each do |arr|
+#   if arr < 20
+#     new_array << arr
+#   end
+# end
+
+# p new_array
+
+#  2. Start with an array of strings and create a new array with only the strings that start with the letter "w".
+#     For example, ["winner", "winner", "chicken", "dinner"] becomes ["winner", "winner"].
+
+array = ["white", "black", "willow"]
 new_array = []
 
 array.each do |arr|
-  if arr < 20
+  if arr[0] == "w"
     new_array << arr
   end
 end
 
 p new_array
 
-#  2. Start with an array of strings and create a new array with only the strings that start with the letter "w".
-#     For example, ["winner", "winner", "chicken", "dinner"] becomes ["winner", "winner"].
+
 
 #  3. Start with an array of hashes and create a new array with only the hashes with prices greater than 5 (from the :price key).
 #     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes [{name: "chair", price: 100}].
