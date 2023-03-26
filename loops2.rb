@@ -90,12 +90,12 @@
 
 # 10. Write a while loop that prints the even numbers from 2 to 40.
 
-i = 2
+# i = 2
 
-while i < 41
-  p i
-  i += 2
-end
+# while i < 41
+#   p i
+#   i += 2
+# end
 
 
 # SOLUTIONS: https://gist.github.com/peterxjang/c4ec0e0f8f6e123d65ada9bf3100068b
