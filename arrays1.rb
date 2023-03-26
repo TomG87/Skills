@@ -61,21 +61,29 @@
 
 # 6. Create an array to store 3 names. Then print out each name on separate lines with a while loop.
 
-array = ["Tom", "Mike", "Bernie"]
+# array = ["Tom", "Mike", "Bernie"]
 
-# array.each do |arr|
-#   p arr
+# # array.each do |arr|
+# #   p arr
+# # end
+
+# i = 0
+
+# while i < array.length
+#   p array[i]
+#   i = i + 1
 # end
-
-i = 0
-
-while i < array.length
-  p array[i]
-  i = i + 1
-end
 
 
 # 7. Create an array to store 2 strings. Then add one string to the array and print the array on one line.
+
+# array = ["apple", "pear"]
+
+# array.push("blackberry")
+
+# # array << "blackberry"
+
+# p array
 
 # 8. Create an array to store 5 numbers. Then change the first number to 10 times its original value and print the array on one line.
 
