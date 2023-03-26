@@ -66,13 +66,19 @@
 
 # 7. Make a hash to store a laptop's brand, model, and year. Then print each attribute on separate lines.
 
-computer = {brand: "Apple", model: "M3", year: "2023"}
+# computer = {brand: "Apple", model: "M3", year: "2023"}
 
-p computer[:brand]
-p computer[:model]
-p computer[:year]
+# # p computer[:brand]
+# # p computer[:model]
+# # p computer[:year]
 
 # 8. Make an array of hashes to store the brand and model for 3 different laptops. Then print out the second laptop's model.
+
+computer = [{brand: "Apple", model: "M3", year: "2023"},
+  {brand: "Dell", model: "XP", year: "2022"},
+  {brand: "HP", model: "1000", year: "2021"}]
+
+  p computer[1][:model]
 
 # 9. Make a hash to store definitions for 2 different words. Then add a new word and definition and print the hash to see the result.
 
