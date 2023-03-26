@@ -24,23 +24,34 @@
 
 # 3. Create an array to store 5 numbers. Then print out each number on separate lines with a while loop.
 
-array = [1, 2, 3, 4, 5]
+# array = [1, 2, 3, 4, 5]
 
-array.each do |arr|
-  p arr
-end
-
-# index = 0
-# while index < array.length
-#   p array[index]
-#   index = index + 1
+# array.each do |arr|
+#   p arr
 # end
+
+# # index = 0
+# # while index < array.length
+# #   p array[index]
+# #   index = index + 1
+# # end
 
 
 
 # 4. Create an array to store 1 number. Then add three more numbers to the array and print the array on one line.
 
+array = [1]
+
+array << 2
+array << 3
+array << 4
+
+# array.push(2,3,4)
+p array
+
 # 5. Create an array to store 3 strings with lower case letters. Then change the third string to have all capital letters and print the array on one line.
+
+
 
 # 6. Create an array to store 3 names. Then print out each name on separate lines with a while loop.
 
