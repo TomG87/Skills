@@ -16,13 +16,20 @@
 
 # 3. Write a function that takes in two numbers and returns the first number subtracted by the second. Then run the function and print the result.
 
-def subtract(number_1,number_2)
-  return (number_1 - number_2)
-end
+# def subtract(number_1,number_2)
+#   return (number_1 - number_2)
+# end
 
-p subtract(100,87)
+# p subtract(100,87)
 
 # 4. Write a function that takes in a number and returns the number times itself. Then run the function and print the result.
+
+def multiply(number)
+  return(number*number)
+end
+
+p multiply(10000)
+
 
 # 5. Write a function that takes in a string and returns the first letter of the string. Then run the function and print the result.
 
