@@ -87,17 +87,26 @@
 #  8. Start with an array of strings and create a new array with each string's first letter only.
 #     For example, ["hello", "goodbye"] becomes ["h", "g"].
 
-array = ["apple", "grape", "pepper"]
-new_array = []
+# array = ["apple", "grape", "pepper"]
+# new_array = []
 
-array.each do |arr|
-  new_array << arr[0]
-end
+# array.each do |arr|
+#   new_array << arr[0]
+# end
 
-p new_array
+# p new_array
 
 # 9.  Start with an array of hashes and create a new array of number values from each hash's :age key times 2.
 #     For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes [54, 32].
+
+people = [{name: "Alice", age: 27}, {name: "Blane", age: 16}]
+new_array = []
+
+people.each do |person|
+  new_array << person[:age] * 2
+end
+
+p new_array
 
 # 10. Start with an array of numbers and create a new array with each number converted into a string.
 #     For example, [1, 2, 3] becomes ["1", "2", "3"].
