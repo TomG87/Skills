@@ -96,11 +96,11 @@
 
 # 9. Create an array to store 2 numbers. Then print out each number on separate lines with a while loop.
 
-array = [1, 2]
+# array = [1, 2]
 
-array.each do |arr|
-  p arr
-end
+# array.each do |arr|
+#   p arr
+# end
 
 # i = 0
 
@@ -112,6 +112,12 @@ end
 
 
 # 10. Create an array to store names of 3 different countries. Then add one more country and print the array one line.
+
+array = ["America", "Italy", "Spain"]
+
+array << "France"
+
+p array
 
 
 # SOLUTIONS: https://gist.github.com/peterxjang/7095a2b19e1da2cc18d4a0dcd66cb8f1
