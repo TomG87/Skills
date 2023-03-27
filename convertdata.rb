@@ -117,26 +117,38 @@
 #  9. Start with an array of hashes and find the hash with the shortest name (from the :name key).
 #     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes {name: "book", price: 4}.
 
-array = [
-  {name: "chair", price: 100}, 
-  {name: "pencil", price: 1}, 
-  {name: "book", price: 4},
-  {name: "eraser", price: 8}
-]
-shortest = array[0]
+# array = [
+#   {name: "chair", price: 100}, 
+#   {name: "pencil", price: 1}, 
+#   {name: "book", price: 4},
+#   {name: "eraser", price: 8}
+# ]
+# shortest = array[0]
 
-array.each do |arr|
-  if arr[:name].length < shortest[:name].length
-    shortest = arr
-  end
-end
+# array.each do |arr|
+#   if arr[:name].length < shortest[:name].length
+#     shortest = arr
+#   end
+# end
 
-p shortest
+# p shortest
 
 
 
 # 10. Start with an array of numbers and compute the maximum number.
 #     For example, [5, 10, 8, 3] becomes 10.
+
+array = [5, 10, 8, 3]
+max = array[0]
+
+array.each do |arr|
+  if arr > max
+  max = arr
+  end
+end
+
+p max
+
 
 
 # SOLUTIONS (using while loop): https://gist.github.com/peterxjang/376c8931a48549889eb3c9bc091e9f43
