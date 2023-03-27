@@ -114,13 +114,13 @@
 #     For example, ["big", "little", "good", "bad"] becomes ["little", "good"].
 
 # array = ["big", "little", "good", "bad"]
-# new_array = []
+new_array = []
 
-# array.each do |arr|
-#   if arr[0] != "b"
-#     new_array << arr
-#   end
-# end
+array.each do |arr|
+  if arr[0] != "b"
+    new_array << arr
+  end
+end
 
 p new_array
 
