@@ -72,21 +72,21 @@
 #  6. Start with an array of hashes and find the hash with the lowest price (from the :price key).
 #     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes {name: "pencil", price: 1}.
 
-array = [
-  {name: "chair", price: 100}, 
-  {name: "pencil", price: 1}, 
-  {name: "book", price: 4},
-  {name: "eraser", price: 8}
-]
-lowest = array[0]
+# array = [
+#   {name: "chair", price: 100}, 
+#   {name: "pencil", price: 1}, 
+#   {name: "book", price: 4},
+#   {name: "eraser", price: 8}
+# ]
+# lowest = array[0]
 
-array.each do |arr|
-  if arr[:price] < lowest[:price]
-  lowest = arr
-  end
-end
+# array.each do |arr|
+#   if arr[:price] < lowest[:price]
+#   lowest = arr
+#   end
+# end
 
-p lowest
+# p lowest
 
 
 
@@ -105,14 +105,14 @@ p lowest
 #  8. Start with an array of strings and combine them all into a single string, separated by dashes.
 #     For example, ["volleyball", "basketball", "badminton"] becomes "-volleyball-basketball-badminton-".
 
-# sports = ["volleyball", "basketball", "badminton"]
-# total = "-"
+sports = ["volleyball", "basketball", "badminton"]
+total = "-"
 
-# sports.each do |sport|
-#   total += sport
-# end
+sports.each do |sport|
+  total += "#{sport}-"
+end
 
-# p total
+p total
 
 #  9. Start with an array of hashes and find the hash with the shortest name (from the :name key).
 #     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes {name: "book", price: 4}.
