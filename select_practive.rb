@@ -15,21 +15,38 @@
 #  2. Start with an array of strings and create a new array with only the strings that start with the letter "w".
 #     For example, ["winner", "winner", "chicken", "dinner"] becomes ["winner", "winner"].
 
-array = ["white", "black", "willow"]
-new_array = []
+# array = ["white", "black", "willow"]
+# new_array = []
 
-array.each do |arr|
-  if arr[0] == "w"
-    new_array << arr
-  end
-end
+# array.each do |arr|
+#   if arr[0] == "w"
+#     new_array << arr
+#   end
+# end
 
-p new_array
+# p new_array
 
 
 
 #  3. Start with an array of hashes and create a new array with only the hashes with prices greater than 5 (from the :price key).
 #     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes [{name: "chair", price: 100}].
+
+array =  [
+  {name: "chair", price: 100}, 
+  {name: "pencil", price: 1}, 
+  {name: "book", price: 4}, 
+  {name: "eraser", price: 6}
+]
+new_array = []
+
+array.each do |arr|
+  if arr[:price] > 5
+  new_array << arr
+  end
+end
+
+p new_array
+
 
 #  4. Start with an array of numbers and create a new array with only the even numbers.
 #     For example, [2, 4, 5, 1, 8, 9, 7] becomes [2, 4, 8].
