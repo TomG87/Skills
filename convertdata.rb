@@ -46,18 +46,28 @@
 #  4. Start with an array of numbers and compute the the minumum number.
 #     For example, [5, 10, 8, 3, 9] becomes 3.
 
-array = [5, 10, 8, 3, 9]
-minumum = array[0]
-array.each do |arr|
-  if arr < minumum
-    minumum = arr
-  end
-end
+# array = [5, 10, 8, 3, 9]
+# minumum = array[0]
+# array.each do |arr|
+#   if arr < minumum
+#     minumum = arr
+#   end
+# end
 
-p minumum
+# p minumum
 
 #  5. Start with an array of strings and compute the total length of all the strings.
 #     For example, ["volleyball", "basketball", "badminton"] becomes 29.
+
+sports = ["volleyball", "basketball", "badminton"]
+total = 0
+
+sports.each do |sport|
+  total += sport.length
+end
+
+p total
+
 
 #  6. Start with an array of hashes and find the hash with the lowest price (from the :price key).
 #     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes {name: "pencil", price: 1}.
