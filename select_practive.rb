@@ -65,19 +65,35 @@
 #  5. Start with an array of strings and create a new array with only the strings shorter than 4 letters.
 #     For example, ["a", "man", "a", "plan", "a", "canal", "panama"] becomes ["a", "man", "a", "a"].
 
-array = ["a", "man", "a", "plan", "a", "canal", "panama"]
+# array = ["a", "man", "a", "plan", "a", "canal", "panama"]
+# new_array = []
+
+# array.each do |arr|
+#   if arr.length < 4
+#     new_array << arr
+#   end
+# end
+
+# p new_array
+
+#  6. Start with an array of hashes and create a new array with only the hashes with names shorter than 6 letters (from the :name key).
+#     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes [{name: "chair", price: 100}, {name: "book", price: 4}].
+
+array = [
+  {name: "chair", price: 100}, 
+  {name: "pencil", price: 1}, 
+  {name: "book", price: 4}
+]
+
 new_array = []
 
 array.each do |arr|
-  if arr.length < 4
+  if arr[:name].length < 6
     new_array << arr
   end
 end
 
 p new_array
-
-#  6. Start with an array of hashes and create a new array with only the hashes with names shorter than 6 letters (from the :name key).
-#     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes [{name: "chair", price: 100}, {name: "book", price: 4}].
 
 #  7. Start with an array of numbers and create a new array with only the numbers less than 10.
 #     For example, [8, 23, 0, 44, 1980, 3] becomes [8, 0, 3].
