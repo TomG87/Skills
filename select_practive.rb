@@ -114,18 +114,35 @@
 #     For example, ["big", "little", "good", "bad"] becomes ["little", "good"].
 
 # array = ["big", "little", "good", "bad"]
+# new_array = []
+
+# array.each do |arr|
+#   if arr[0] != "b"
+#     new_array << arr
+#   end
+# end
+
+# p new_array
+
+#  9. Start with an array of hashes and create a new array with only the hashes with prices less than 10 (from the :price key).
+#     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes [{name: "pencil", price: 1}, {name: "book", price: 4}].
+
+array = [
+  {name: "chair", price: 100}, 
+  {name: "pencil", price: 1}, 
+  {name: "book", price: 4},
+  {name: "eraser", price: 8}
+]
+
 new_array = []
 
 array.each do |arr|
-  if arr[0] != "b"
+  if arr[:price] < 10
     new_array << arr
   end
 end
 
 p new_array
-
-#  9. Start with an array of hashes and create a new array with only the hashes with prices less than 10 (from the :price key).
-#     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes [{name: "pencil", price: 1}, {name: "book", price: 4}].
 
 # 10. Start with an array of numbers and create a new array with only the odd numbers.
 #     For example, [2, 4, 5, 1, 8, 9, 7] becomes [5, 1, 9, 7].
