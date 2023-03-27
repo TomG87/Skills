@@ -147,16 +147,16 @@
 # 10. Start with an array of numbers and create a new array with only the odd numbers.
 #     For example, [2, 4, 5, 1, 8, 9, 7] becomes [5, 1, 9, 7].
 
-array = [2, 4, 5, 1, 8, 9, 7]
-new_array = []
+# array = [2, 4, 5, 1, 8, 9, 7]
+# new_array = []
 
-array.each do |arr|
-  if arr.odd? == true
-    new_array << arr
-  end
-end
+# array.each do |arr|
+#   if arr.odd? == true
+#     new_array << arr
+#   end
+# end
 
-p new_array
+# p new_array
 
 # SOLUTIONS (using while loop): https://gist.github.com/peterxjang/7de16ed43ea506e98df3fa15074b84f8
 # SOLUTIONS (using .each shortcut): https://gist.github.com/peterxjang/a702894841c7018ed8c127b647ae21f8
