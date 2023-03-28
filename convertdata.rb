@@ -138,16 +138,16 @@
 # 10. Start with an array of numbers and compute the maximum number.
 #     For example, [5, 10, 8, 3] becomes 10.
 
-array = [5, 10, 8, 3]
-max = array[0]
+# array = [5, 10, 8, 3]
+# max = array[0]
 
-array.each do |arr|
-  if arr > max
-  max = arr
-  end
-end
+# array.each do |arr|
+#   if arr > max
+#   max = arr
+#   end
+# end
 
-p max
+# p max
 
 
 
